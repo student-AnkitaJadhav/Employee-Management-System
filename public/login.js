@@ -23,7 +23,8 @@ document.getElementById("loginForm").addEventListener("submit", async function (
       localStorage.setItem("token", data.token);
 
       // Redirect to dashboard or some protected page
-      window.location.href = "/home.html";
+      console.log("Redirecting to dashboard");
+      window.location.href = "/dashboard.html";
     } else {
       alert("Login failed: " + data.message);
     }

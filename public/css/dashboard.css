@@ -1,0 +1,14 @@
+.offcanvas .nav-link {
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 22px;       /* ⬅️ Increased from 15px to 22px */
+  transition: all 0.25s ease-in-out;
+  padding: 10px 16px;        /* ⬅️ Slightly increased padding */
+  border-radius: 6px;
+}
+
+.offcanvas .nav-link:hover {
+  background-color: #dee2e6;
+  color: #000;
+  transform: translateX(6px);  /* ⬅️ Slightly more noticeable slide */
+}
